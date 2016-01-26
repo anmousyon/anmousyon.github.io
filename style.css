@@ -3,8 +3,7 @@ body{
 }
 
 .container{
-	background-color: #004c99;
-	color: white;
+	background-color: #264c73;
 	padding: 30px;
 }
 
@@ -12,6 +11,7 @@ body{
 #title{
 	font-family: 'Roboto Slab';
 	font-weight: bold;
+	color: white;
 }
 
 .project{
