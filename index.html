@@ -5,6 +5,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
+
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
@@ -43,17 +44,31 @@
 	</nav>
 
 	<div class="jumbotron">
-
 	</div>
 
-
-	<body>
+	<div class="container projects">
 		<div id="project1" class="container">
-			<p class="projects">hello f<br><br><br><br><br><br><br><br><br><br><br><br>sdklfjasdfjasdklfjasdkljfasdkljfasdkl</p>
-			<p class="projects">hello f<br><br><br><br><br><br><br><br><br><br><br><br>sdklfjasdfjasdklfjasdkljfasdkljfasdkl</p>
+			<h1>LinkedArray</h1>
+			<p>This is a priority queue implementation that uses a linked list of arrays as the
+					base structure. It starts with an array of size one, then once that is full, creates
+					an array of size two and adds it to the linked list (this array will hold the
+					previous ones children). Once that is full, it will create and array of size 4 (the
+					array sizes grow at a rate of 2^n) which will hold the previous array's children,
+					and so on. This allows for better memory management, as each the largest array is
+					(worst case) only half the size of the total array size from a standard implementation.
+			</p>
+			<p> Code:  <a href="https://github.com/anmousyon/CS2336/blob/master/Project5/linkedArrays.java">Java Version</a>
+				 | <a href="https://github.com/anmousyon/python/blob/master/PriorityQueue.py"> Python Version</a>
+			</p>
+		</div>
+		<hr></hr>
+		<div>
+			<p>hello f<br><br><br><br><br><br><br><br><br><br><br><br>sdklfjasdfjasdklfjasdkljfasdkljfasdkl</p>
+		</div>
+		<hr></hr>
+		<div>
 			<p class="projects">hello fs<br><br><br><br><br><br><br><br><br><br><br><br>dklfjasdfjasdklfjasdkljfasdkljfasdkl</p>
 		</div>
-	</body>
-
+	<div>
 
 </html>

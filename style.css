@@ -16,7 +16,8 @@ body{
 	height: 400px;
 	width: 100%;
 	background-size: cover;
-	background-image: url("http://i.imgur.com/zuzz1Kz.jpg");
+	background-color: #204060;
+	/*background-image: url("http://i.imgur.com/zuzz1Kz.jpg");*/
 }
 
 .container{
@@ -24,6 +25,6 @@ body{
 	font-family: 'Roboto';
 }
 
-#project1{
+.projects{
 	color: white;
 }
