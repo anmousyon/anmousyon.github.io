@@ -4,7 +4,7 @@ body{
 
 .container{
 	background-color: #264c73;
-	display: block;
+	max-width: 2000px;
 }
 
 
