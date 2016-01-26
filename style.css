@@ -3,17 +3,27 @@ body{
 }
 
 .navbar{
-	background-color: #264c73;
+	background-color: #191919;
 }
 
 
-#title{
-	font-family: 'Roboto Slab';
+.navbar-brand {
+	font-family: 'Roboto Mono';
 	font-weight: bold;
-	color: white;
 }
 
-.project{
-	color: gray;
+.jumbotron{
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-image: url("http://i.imgur.com/zuzz1Kz.jpg");
+}
+
+.container{
+	color: white;
 	font-family: 'Roboto';
+}
+
+#project1{
+	color: white;
 }
