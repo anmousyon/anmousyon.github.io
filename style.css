@@ -1,5 +1,13 @@
 body{
 	background-color: #191919;
-	color: white;
+}
+.title{
+	color: gray;
 	font-family: Roboto;
+	font-weight: bold;
+}
+
+.project{
+	color: grey;
+	font-family: Roboto Mono;
 }
