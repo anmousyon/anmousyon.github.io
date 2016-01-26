@@ -1,13 +1,17 @@
 body{
 	background-color: #191919;
 }
-.title{
+
+.container{
 	color: gray;
+}
+
+
+.title{
 	font-family: Roboto;
 	font-weight: bold;
 }
 
 .project{
-	color: grey;
 	font-family: Roboto Mono;
 }
