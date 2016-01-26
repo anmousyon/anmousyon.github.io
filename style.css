@@ -4,7 +4,9 @@ body{
 
 .container{
 	background-color: #264c73;
-	max-width: 2000px;
+	width: 19200px;
+	margin: 0;
+	padding: 0;
 }
 
 
