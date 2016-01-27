@@ -26,6 +26,7 @@ body{
 	background-color: #C96868;
 	color: #D4D8D4;
 	margin-bottom: 0px;
+	border-radius: 0px;
 		/*background-image: url("http://i.imgur.com/zuzz1Kz.jpg");*/
 }
 
@@ -88,10 +89,6 @@ body{
 .thisWebsite{
 	background-color: #338783;
 	border-top: 15px solid #3A7A77;
-}
-
-.contextimg img{
-
 }
 
 a, a:link, a:visited, a:active, a:hover{
