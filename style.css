@@ -2,33 +2,122 @@ body{
 	background-color: #191919;
 }
 
+
 .navbar{
-	background-color: #191919;
+	padding: 0px 400px 0px 400px;
+	background-color: #2b2b2b;
+	border: 1px solid transparent;
+	box-shadow: 0px 10px 0px 5px rgba(54,54,54,0.38);
 }
-
-
-.navbar-brand {
-	font-family: 'Roboto Mono';
-	font-weight: bold;
-}
-
-.jumbotron{
-	height: 400px;
-	width: 100%;
-	background-size: cover;
-	background-color: #204060;
-	/*background-image: url("http://i.imgur.com/zuzz1Kz.jpg");*/
-}
-
-.container{
+.navbar li{
+	padding-right: 30px;
 	color: white;
 	font-family: 'Roboto';
 }
 
-.projects{
-	color: white;
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  color: white;
 }
 
-a {
-	color: #204060
+.jumbotron{
+	height: 800px;
+	width: 100%;
+	background-size: 100% auto;
+	background-color: #548E94;
+	color: white;
+	margin-bottom: 0px;
+		/*background-image: url("http://i.imgur.com/zuzz1Kz.jpg");*/
+}
+
+.hellogoodbye {
+	display: inline-block;
+	margin-top: 210px;
+	margin-left: 70px;
+	text-decoration: none;
+	color: white !important;
+	text-align: center;
+	font-size: 150px;
+	font-family: 'Roboto Thin'
+}
+
+.jumbotron h3{
+	color: white;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	font-family: 'Roboto Light';
+}
+
+.jumbotron h5{
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Roboto Light';
+}
+
+.projects h1{
+	text-align: center;
+	padding-top: 10px;
+	color: #2b2b2b;
+	font-size: 72px;
+	font-family: 'Roboto';
+}
+
+.projects p{
+	color: #2b2b2b;
+	font-size: 24px;
+	font-family: 'Roboto';
+}
+
+.linkedArrays{
+	background-color: #945A54;
+	border-top: 15px solid #7A4943;
+
+}
+
+.lolReddit{
+	background-color: #6E9454;
+	border-top: 15px solid #597A43;
+
+}
+
+.thisWebsite{
+	background-color: #7A5494;
+	border-top: 15px solid #64437A;
+}
+
+a, a:link, a:visited, a:active, a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.project1box{
+	margin-top: 15px;
+	background-color: #7A4943;
+	background-size: 100% auto;
+	border: none;
+	border-radius: 10px;
+	height: 100px;
+	width: 400px;
+}
+
+.project2box{
+	margin-top: 15px;
+	background-color: #597A43;
+	background-size: 100% auto;
+	border: none;
+	border-radius: 10px;
+	height: 100px;
+	width: 400px;
+}
+
+.project3box{
+	margin-top: 15px;
+	background-color: #64437A;
+	background-size: 100% auto;
+	border: none;
+	border-radius: 10px;
+	height: 100px;
+	width: 400px;
 }

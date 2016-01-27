@@ -1,90 +1,110 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang='en'>
 
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<meta charset='utf-8'>
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
 		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'></script>
 
 		<!-- Latest compiled JavaScript -->
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 
-		<link rel="stylesheet" type"text/css" href="style.css">
+		<link rel='stylesheet' type'text/css' href='style.css'>
 	</head>
 
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="index.html">Github Projects</a>
-		</div>
-		<div id="navbar" class="navbar-collapse collapse">
-			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">other</a></li>
-						<li><a href="#">else</a></li>
-						<li role="separator" class="divider"></li>
-						<li class="dropdown-header">Nav Header</li>
-						<li><a href="#">sep link</a></li>
-						<li><a href="#">sep link</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</nav>
+	<body>
 
-	<div class="jumbotron">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+	<div class='jumbotron'>
+		<div class='container'>
+			<a class='hellogoodbye' href='/'>Hello, Goodbye</a>
+			<h3>Programs and projects made to test and explore new languages</h3>
+			<h5>Built as well as I could, anmousyon</h5>
+		</div>
 	</div>
 
-	<div class="container projects">
-		<div class="container">
-			<h1>LinkedArray</h1>
-			<p>This is a priority queue implementation that uses a linked list of arrays as the
-					base structure. It starts with an array of size one, then once that is full, creates
-					an array of size two and adds it to the linked list (this array will hold the
-					previous ones children). Once that is full, it will create and array of size 4 (the
-					array sizes grow at a rate of 2^n) which will hold the previous array's children,
-					and so on. This allows for better memory management, as each the largest array is
-					(worst case) only half the size of the total array size from a standard implementation.
-			</p>
-			<p> Github Link: <a href="https://github.com/anmousyon/CS2336/blob/master/Project5/linkedArrays.java">Java Version</a>
-				 | <a href="https://github.com/anmousyon/python/blob/master/PriorityQueue.py"> Python Version</a>
-			</p>
+	<div class='projects'>
+			<div class='linkedArrays'>
+			<div class='container'>
+				<div class='project1box'>
+					<h1>LinkedArray</h1>
+				</div>
+				<p><br />
+						This is a priority queue implementation that uses a linked list of arrays as the
+						base structure.
+				</p>
+				<p>
+						It starts with an array of size one, then once that is full, creates
+						an array of size two and adds it to the linked list (this array will hold the
+						previous ones children). Once that is full, it will create and array of size 4 (the
+						array sizes grow at a rate of 2^n) which will hold the previous array's children,
+						and so on.
+				</p>
+				<p>
+						This allows for better memory management, as each the largest array is
+						(worst case) only half the size of the total array size from a standard implementation.
+				</p>
+				<p><br /> Github Link: <a class='gitlink' href='https://github.com/anmousyon/CS2336/blob/master/Project5/linkedArrays.java'>Java Version</a>
+					 | <a href='https://github.com/anmousyon/python/blob/master/PriorityQueue.py'> Python Version</a>
+					 <br /><br /><br />
+				</p>
+			</div>
 		</div>
-		<hr></hr>
-		<div class="container">
-			<h1>lolReddit</h1>
-			<p>This script looks at the "hot" posts on the leagueoflegends subreddit and will
-				grab any post game discussion threads, shorten the title, create a tinyURL link to the
-				reddit thread, and then post all the concatenation of the title and link as a tweet on
-				twitter.
-			</p>
-			<p> It used prawn to search through reddit for the posts and to get their title/submission
-				id. It uses tweepy to post to twitter once the shortening has been done, and it uses tinyURL
-				 to shortern all the links before posting (so it doesnt go over the twitter character limit).
-			<p> Github Link: <a href="https://github.com/anmousyon/python/blob/master/lolreddit.py">Python Version</a>
-			</p>
+		<div class='lolReddit'>
+			<div class='container'>
+				<div class='project2box'>
+					<h1>LolReddit</h1>
+				</div>
+				<p><br />This script looks at the 'hot' posts on the leagueoflegends subreddit and will
+					grab any post game discussion threads, shorten the title, create a tinyURL link to the
+					reddit thread, and then post all the concatenation of the title and link as a tweet on
+					twitter.
+				</p>
+				<p> It used prawn to search through reddit for the posts and to get their title/submission
+					id. It uses tweepy to post to twitter once the shortening has been done, and it uses tinyURL
+					 to shortern all the links before posting (so it doesnt go over the twitter character limit).
+				<p><br />Github Link: <a class='gitlink' href='https://github.com/anmousyon/python/blob/master/lolreddit.py'>Python Version</a>
+					<br /><br /><br />
+				</p>
+			</div>
 		</div>
-		<hr></hr>
-		<div class="container">
-			<h1>This Page</h1>
-			<p >This page is my way of experimenting with html, css, and javascript (no javascript yet) and
-					I am using it as a learning tool. If you see anything wrong or would like to make a suggestion,
-					please do, as this is my practice page.
-			 </p>
-			 <p>Github Link: <a href="https://github.com/anmousyon/anmousyon.github.io"> GitPage </a>
-			 </p>
+		<div class='thisWebsite'>
+			<div class='container '>
+				<div>
+				</div>
+				<div class='project3box'>
+					<h1>This Page</h1>
+				</div>
+				<p><br />This page is my way of experimenting with html, css, and javascript (no javascript yet) and
+						I am using it as a learning tool. If you see anything wrong or would like to make a suggestion,
+						please do, as this is my practice page.
+				 </p>
+				 <p><br />Github Link: <a class='gitlink' href='https://github.com/anmousyon/anmousyon.github.io'> GitPage </a>
+					 <br /><br /><br />
+				 </p>
+			</div>
 		</div>
 	<div>
+</body>
 
 </html>
