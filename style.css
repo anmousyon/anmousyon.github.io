@@ -4,13 +4,14 @@ body{
 
 
 .navbar{
-	padding: 0px 400px 0px 400px;
+	padding: 0px 15% 0px 25%;
 	background-color: #2b2b2b;
 	border: 1px solid transparent;
-	box-shadow: 0px 10px 0px 5px rgba(54,54,54,0.38);
+	box-shadow: 0px 5px 0px 5px rgba(54,54,54,0.38);
 }
 .navbar li{
-	padding-right: 30px;
+	padding-right: 20px;
+	margin-left: -10px;
 	color: white;
 	font-family: 'Roboto';
 }
@@ -36,6 +37,7 @@ body{
 	margin-left: 70px;
 	text-decoration: none;
 	color: white !important;
+	font-weight: normal !important;
 	text-align: center;
 	font-size: 150px;
 	font-family: 'Roboto Thin'
@@ -61,7 +63,7 @@ body{
 	padding-top: 10px;
 	color: #2b2b2b;
 	font-size: 72px;
-	font-family: 'Roboto';
+	font-family: 'Roboto Thin';
 }
 
 .projects p{
@@ -90,6 +92,8 @@ body{
 a, a:link, a:visited, a:active, a:hover{
 	text-decoration: none;
 	color: black;
+	font-family: 'Roboto Thin';
+	font-weight: bold;
 }
 
 .project1box{
