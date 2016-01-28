@@ -21,41 +21,38 @@
 		<link rel='stylesheet' type'text/css' href='style.css'>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="jquery.fittext.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
+		<script src="jquery.fittext.js"></script>
+		<script type="text/javascript">
+  		$(document).ready(function(){
           $("body").fitText();
-  });
-</script>
+  		});
+		</script>
 
 	</head>
 
 <body>
 
+	<div class="container">
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-			<div class='navbar-inner'>
-				<div class='container'>
-						<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-		 					<span class="icon-bar"></span>
-		 					<span class="icon-bar"></span>
-		 					<span class="icon-bar"></span>
-	 					</a>
-						<div class="nav-collapse collapse">
-							<ul class="col-xs-4 nav navbar-nav navbar-left">
-								<li><a href="index.html">Home</a></li>
-							</ul>
-							<ul class="col-xs-6 nav navbar-nav navbar-right">
-								<li><a href="#linkedArrays">linkedArrays</a></li>
-								<li><a href="#lolReddit">lolReddit</a></li>
-								<li><a href="#thisPage">This Page</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
+			<ul class="nav navbar-nav">
+				<li class='nav-item pull-*-left'><a class='nav-link' href="index.html">Home</a></li>
+			</ul>
+			<ul class="nav navbar-nav">
+				<li class='nav-item pull-*-right'>
+					<a class='nav-link' href="#linkedArrays">linkedArrays</a>
+				</li>
+				<li class='nav-item pull-*-right'>
+					<a class='nav-link' href="#lolReddit">lolReddit</a>
+				</li>
+				<li class='nav-item pull-*-right'>
+					<a class='nav-link' href="#thisPage">This Page</a>
+				</li>
+			</ul>
 		</nav>
+	</div>
+
 <div class='container-fluid'>
-	<div class='jumbotron'>
+	<div class='jumbotron jumbotron-fluid'>
 		<div class='container'>
 			<a class='col-xs-12 hellogoodbye'>Hello, Goodbye</a>
 			<h3 class='col-xs-12'>Programs and projects made to test and explore new languages</h3>

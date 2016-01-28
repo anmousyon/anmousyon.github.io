@@ -2,22 +2,6 @@ body{
 	background-color: #191919;
 }
 
-@media all and (max-width: 1200px) { /* screen size until 1200px */
-    body {
-        font-size: 8.5em; /* 1.5x default size */
-    }
-}
-@media all and (max-width: 1000px) { /* screen size until 1000px */
-    body {
-        font-size: 1.2em; /* 1.2x default size */
-        }
-    }
-@media all and (max-width: 500px) { /* screen size until 500px */
-    body {
-        font-size: 0.8em; /* 0.8x default size */
-        }
-    }
-
 .navbar{
 	background-color: #2b2b2b;
 	border: 1px solid transparent;
@@ -34,20 +18,21 @@ body{
 }
 
 .jumbotron{
-	height: 800px;
+	height: 100%;
 	max-height: 100%;
 	width: 100%;
 	background-size: 100% auto;
 	background-color: #C96868;
 	color: #D4D8D4;
-	margin-bottom: 0px;
+	margin-bottom: -5px;
 	border-radius: 0px;
+	border: none;
 		/*background-image: url("http://i.imgur.com/zuzz1Kz.jpg");*/
 }
 
 .hellogoodbye {
 	display: inline-block;
-	margin-top: 10%;
+	margin-top: 20%;
 	position: relative;
 	text-decoration: none;
 	color: #D4D8D4 !important;
@@ -73,6 +58,7 @@ body{
 	font-size: 24px;
 	font-size: 1.5vw;
 	font-family: 'Roboto Light';
+	margin-bottom: 20%;
 }
 
 .projects h1{
