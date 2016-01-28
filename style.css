@@ -9,7 +9,29 @@ body{
 	height: 2%;
 }
 
+@media (min-width: 768px) {
+.my-custom-container{
+    width:720px;
+}}
 
+@media (min-width: 992px) {
+.my-custom-container{
+    width:950px;
+}}
+
+@media (min-width: 1250px) {
+.my-custom-container{
+    width:1200px;
+		position: relative;
+		margin: auto;
+}}
+
+@media (min-width: 1850px) {
+.my-custom-container{
+    width:1800px;
+		position: relative;
+		margin: auto;
+}}
 
 .linklist li{
 	color: #D4D8D4;
@@ -44,7 +66,6 @@ body{
 	font-weight: normal !important;
 	text-align: center;
 	font-size: 150px;
-	font-size: 8vw;
 	font-family: 'Roboto Thin'
 }
 
@@ -52,7 +73,6 @@ body{
 	color: #D4D8D4;
 	text-align: center;
 	font-size: 32px;
-	font-size: 2vw;
 	font-weight: bold;
 	font-family: 'Roboto Light';
 }
@@ -61,7 +81,6 @@ body{
 	color: #D4D8D4;
 	text-align: center;
 	font-size: 24px;
-	font-size: 1.5vw;
 	font-family: 'Roboto Light';
 	margin-bottom: 20%;
 }
@@ -71,19 +90,17 @@ body{
 	padding-top: 10px;
 	color: #D4D8D4;
 	font-size: 72px;
-	font-size: 4vw;
 	font-family: 'Roboto Thin';
 }
 
 .container-fluid p{
 	color: #D4D8D4;
 	font-size: 24px;
-	font-size: 1.3vw;
 	font-family: 'Roboto';
 }
 
 .container-fluid .project{
-	border-radius: 30px;
+	border-radius: 0px;
 	background-color: #2b2b2b;
 }
 
