@@ -11,24 +11,24 @@ body{
 
 @media (min-width: 768px) {
 .my-custom-container{
-    width:720px;
+    width:90%;
 }}
 
 @media (min-width: 992px) {
 .my-custom-container{
-    width:950px;
+    width:90%;
 }}
 
 @media (min-width: 1250px) {
 .my-custom-container{
-    width:1200px;
+    width:90%;
 		position: relative;
 		margin: auto;
 }}
 
 @media (min-width: 1850px) {
 .my-custom-container{
-    width:1800px;
+    width:90%;
 		position: relative;
 		margin: auto;
 }}
