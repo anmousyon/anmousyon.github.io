@@ -12,142 +12,88 @@ body
     box-shadow: 0 5px 0 5px rgba(54,54,54,.38);
 }
 
-@media only screen and (min:width: 700px)
+@media only screen and (min-width: 700px)
 {
     .my-custom-container
     {
         position: relative;
 
-        width: 500px;
+        width: 90%;
         margin: auto;
     }
-		h1{
-			font-size: 72px;
-		}
-		h3{
-			font-size: 36px;
-		}
-		h5{
-			font-size: 12px;
-		}
-		p{
-			font-size: 12px;
+		body{
+			font-size:50%;
 		}
 }
 
-@media only screen and (min:width: 768px)
+@media only screen and (min-width: 768px)
 {
     .my-custom-container
     {
         position: relative;
 
-        width: 600px;
+				width: 90%;
         margin: auto;
     }
-		h1{
-			font-size: 78px;
-		}
-		h3{
-			font-size: 40px;
-		}
-		h5{
-			font-size: 14px;
-		}
-		p{
-			font-size: 14px;
+		body{
+			font-size:70%;
 		}
 }
 
-@media only screen and (min:width: 992px)
+@media only screen and (min-width: 992px)
 {
     .my-custom-container
     {
         position: relative;
 
-        width: 700px;
+				width: 90%;
         margin: auto;
     }
-		h1{
-			font-size: 96px;
-		}
-		h3{
-			font-size: 50px;
-		}
-		h5{
-			font-size: 16px;
-		}
-		p{
-			font-size: 16px;
+		body{
+			font-size:80%;
 		}
 }
 
-@media only screen and (min:width: 1400px)
+@media only screen and (min-width: 1400px)
 {
     .my-custom-container
     {
         position: relative;
 
-        width: 1100px;
+				width: 90%;
         margin: auto;
     }
-		h1{
-			font-size: 124px;
-		}
-		h3{
-			font-size: 60px;
-		}
-		h5{
-			font-size: 20px;
-		}
-		p{
-			font-size: 20px;
+		body{
+			font-size:100%;
 		}
 }
 
-@media only screen and (min:width: 1600px)
+@media only screen and (min-width: 1600px)
 {
     .my-custom-container
     {
         position: relative;
 
-        width: 1300px;
+				width: 90%;
         margin: auto;
     }
-		h1{
-			font-size: 124px;
-		}
-		h3{
-			font-size: 60px;
-		}
-		h5{
-			font-size: 20px;
-		}
-		p{
-			font-size: 20px;
+		body{
+			font-size:150%;
 		}
 }
 
-@media only screen and (min:width: 1920px)
+@media only screen and (min-width: 1920px)
 {
     .my-custom-container
     {
         position: relative;
 
-        width: 1650px;
+				width: 90%;
         margin: auto;
     }
 
-		h1{
-			font-size: 150px;
-		}
-		h3{
-			font-size: 72px;
-		}
-		h5{
-			font-size: 24px;
-		}
-		p{
-			font-size: 24px;
+		body{
+			font-size:200%;
 		}
 }
 
@@ -186,7 +132,7 @@ body
 .hellogoodbye
 {
     font-family: 'Roboto Thin';
-    font-size: 150px;
+    font-size: 12em;
     font-weight: normal !important;
 
     position: relative;
@@ -204,7 +150,7 @@ body
 .jumbotron h3
 {
     font-family: 'Roboto Light';
-    font-size: 32px;
+    font-size: 5em;
     font-weight: bold;
 
     text-align: center;
@@ -215,7 +161,7 @@ body
 .jumbotron h5
 {
     font-family: 'Roboto Light';
-    font-size: 24px;
+    font-size: 3em;
 
     margin-bottom: 20%;
 
@@ -227,7 +173,7 @@ body
 .container-fluid h1
 {
     font-family: 'Roboto Thin';
-    font-size: 72px;
+    font-size: 8em;
 
     padding-top: 10px;
 
@@ -239,7 +185,7 @@ body
 .container-fluid p
 {
     font-family: 'Roboto';
-    font-size: 24px;
+    font-size: 2.5em;
 
     color: #d4d8d4;
 }
