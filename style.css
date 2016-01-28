@@ -2,22 +2,21 @@ body{
 	background-color: #191919;
 }
 
-@media (max-width: @screen-xs) {
-    p{font-size: .3em;}
-		h1{font-size: .3em;}
-		h3{font-size: .3em;}
-		h5{font-size: .3em;}
-		li{font-size: .3em;}
-
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 8.5em; /* 1.5x default size */
+    }
 }
-
-@media (max-width: @screen-sm) {
-    p{font-size: .5em;}
-		h1{font-size: .5em;}
-		h3{font-size: .5em;}
-		h5{font-size: .5em;}
-		li{font-size: .5em;}
-}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    }
 
 .navbar{
 	background-color: #2b2b2b;
@@ -53,7 +52,7 @@ body{
 	font-weight: normal !important;
 	text-align: center;
 	font-size: 150px;
-	font-size: 12vw;
+	font-size: 8vw;
 	font-family: 'Roboto Thin'
 }
 
@@ -61,7 +60,7 @@ body{
 	color: #D4D8D4;
 	text-align: center;
 	font-size: 32px;
-	font-size: 2.5vw;
+	font-size: 2vw;
 	font-weight: bold;
 	font-family: 'Roboto Light';
 }
@@ -70,7 +69,7 @@ body{
 	color: #D4D8D4;
 	text-align: center;
 	font-size: 24px;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	font-family: 'Roboto Light';
 }
 
@@ -79,14 +78,14 @@ body{
 	padding-top: 10px;
 	color: #D4D8D4;
 	font-size: 72px;
-	font-size: 7vw;
+	font-size: 4vw;
 	font-family: 'Roboto Thin';
 }
 
 .projects p{
 	color: #D4D8D4;
 	font-size: 24px;
-	font-size: 2vw;
+	font-size: 1.3vw;
 	font-family: 'Roboto';
 }
 
