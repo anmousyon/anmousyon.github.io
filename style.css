@@ -35,6 +35,7 @@ body{
 
 .jumbotron{
 	height: 800px;
+	max-height: 100%;
 	width: 100%;
 	background-size: 100% auto;
 	background-color: #C96868;
@@ -46,7 +47,8 @@ body{
 
 .hellogoodbye {
 	display: inline-block;
-	margin-top: 160px;
+	margin-top: 10%;
+	position: relative;
 	text-decoration: none;
 	color: #D4D8D4 !important;
 	font-weight: normal !important;
@@ -121,22 +123,22 @@ a, a:link, a:visited, a:active, a:hover{
 	margin-top: 15px;
 	background-size: 100% auto;
 	border: none;
-	height: 100px;
-	width: 400px;
+	height: 20%;
+	width: 50%;
 }
 
 .project2box{
 	margin-top: 15px;
 	background-size: 100% auto;
 	border: none;
-	height: 100px;
-	width: 400px;
+	height: 20%;
+	width: 50%;
 }
 
 .project3box{
 	margin-top: 15px;
 	background-size: 100% auto;
 	border: none;
-	height: 100px;
-	width: 400px;
+	height: 20%;
+	width: 50%;
 }
