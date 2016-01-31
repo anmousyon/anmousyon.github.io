@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
-<meta name='viewport' content=
-'width=device-width, initial-scale=1'>
-<meta charset='utf-8'><!-- Responsive CSS for Bootstrap -->
-<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-<!-- Latest compiled and minified CSS -->
-<link rel='stylesheet' href=
-'http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-<!-- jQuery library -->
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta charset='utf-8'>
+	<!-- Responsive CSS for Bootstrap -->
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<!-- jQuery library -->
 
-<script src=
-'https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'>
-</script><!-- Latest compiled JavaScript -->
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js'>
+	</script>
+	<!-- Latest compiled JavaScript -->
 
-<script src=
-'http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'>
-</script>
-<link rel='stylesheet' href='style.css'>
-<script src=
-"http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
-</script>
-<!--
+	<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'>
+	</script>
+	<link rel='stylesheet' href='style.css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+	</script>
+	<!--
 <script src="jquery.fittext.js">
 </script>
 <script type="text/javascript">
@@ -30,125 +28,107 @@
                 });
 </script>
 -->
-<title>Github Projects</title>
+	<title>Github Projects</title>
 </head>
-<body>
-<div class='container-fluid'>
-<nav class="navbar navbar-inverse navbar-fixed-top" role=
-"navigation">
-<div class="container">
-<div class="navbar-header"><button type="button" class=
-"navbar-toggle collapsed" data-toggle="collapse" data-target=
-"#navbar-collapsed"><span class="sr-only">Toggle
-navigation</span></button></div>
-<!-- Collect the nav links, forms, and other content for toggling -->
-<div class="collapse navbar-collapse" id="navbar-collapsed">
-<ul class="nav navbar-nav">
-<li><a href="index.html">Home</a></li>
-<li><a href="#linkedArrays">linkedArrays</a></li>
-<li><a href="#lolReddit">lolReddit</a></li>
-<li><a href="#thisPage">This Page</a></li>
-</ul>
-</div>
-</div>
-</nav>
-</div>
 
-<div class='my-custom-container'>
-<div class='jumbotron jumbotron-fluid'>
-<div class='container-fluid'><a class=
-'col-xs-12 hellogoodbye'>Hello, Goodbye</a>
-<h3 class='col-xs-12'>Projects made to test and explore new
+<body>
+	<div class='container-fluid'>
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsed"><span class="sr-only">Toggle
+navigation</span></button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar-collapsed">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#linkedArrays">linkedArrays</a></li>
+						<li><a href="#lolReddit">lolReddit</a></li>
+						<li><a href="#thisPage">This Page</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class='my-custom-container'>
+		<div class='jumbotron jumbotron-fluid'>
+			<div class='container-fluid'><a class='col-xs-12 hellogoodbye'>Hello, Goodbye</a>
+				<h3 class='col-xs-12'>Projects made to test and explore new
 languages</h3>
-<h5 class='col-xs-12'>This site is still under construction</h5>
-</div>
-</div>
-<div id="linkedArrays" class='container-fluid'></div>
-<!-- <div class='projects container-fluid'> -->
-<div class='container-fluid linkedArrays'>
-<div class=' container-fluid'>
-<div class='project1box'>
-<h1>LinkedArray</h1>
-</div>
-<div class='col-xs-8'>
-<p><br>
-This is a priority queue implementation that uses a linked list of
-arrays as the base structure.</p>
-<p>It starts with an array of size one, then once that is full,
-creates an array of size two and adds it to the linked list (this
-array will hold the previous ones children). Once that is full, it
-will create and array of size 4 (the array sizes grow at a rate of
-2^n) which will hold the previous array's children, and so on.</p>
-<p>This allows for better memory management, as each the largest
-array is (worst case) only half the size of the total array size
-from a standard implementation.</p>
-<p><br>
-Github Link: <a class='gitlink' href=
-'https://github.com/anmousyon/CS2336/blob/master/Project5/linkedArrays.java'>
-Java Version</a> | <a href=
-'https://github.com/anmousyon/python/blob/master/PriorityQueue.py'>Python
-Version</a><br>
-<br>
-<br></p>
-</div>
-<div class='col-xs-4 contextimg'><img class=
-'img-rounded img-responsive' src=
-'http://www.gigaflop.co.uk/comp/fig3_2_3-1.gif'></div>
-</div>
-</div>
-<div id="lolReddit" class='container-fluid'></div>
-<div class='lolReddit'>
-<div class='container-fluid'>
-<div class='project2box'>
-<h1>LolReddit</h1>
-</div>
-<div class='col-xs-8'>
-<p><br>
-This script looks at the 'hot' posts on the leagueoflegends
-subreddit and will grab any post game discussion threads, shorten
-the title, create a tinyURL link to the reddit thread, and then
-post all the concatenation of the title and link as a tweet on
-twitter.</p>
-<p>It used prawn to search through reddit for the posts and to get
-their title/submission id. It uses tweepy to post to twitter once
-the shortening has been done, and it uses tinyURL to shortern all
-the links before posting (so it doesnt go over the twitter
-character limit).</p>
-<p><br>
-Github Link: <a class='gitlink' href=
-'https://github.com/anmousyon/python/blob/master/lolreddit.py'>Python
-Version</a><br>
-<br>
-<br></p>
-</div>
-<div class='col-xs-4 contextimg'><img class=
-'img-rounded img-responsive' src=
-'http://www.adweek.com/socialtimes/files/2014/07/alltwitter-twitter-bird-logo-white-on-blue.png'></div>
-</div>
-</div>
-<div id="thisPage" class='container-fluid'></div>
-<div class='thisWebsite'>
-<div class='container-fluid'>
-<div class='project3box'>
-<h1>This Page</h1>
-</div>
-<div class='col-xs-8'>
-<p><br>
-This page is my way of experimenting with html, css, and javascript
-(no javascript yet) and I am using it as a learning tool. If you
-see anything wrong or would like to make a suggestion, please do,
-as this is my practice page.</p>
-<p><br>
-Github Link: <a class='gitlink' href=
-'https://github.com/anmousyon/anmousyon.github.io'>GitPage</a><br>
-<br>
-<br></p>
-</div>
-<div class='col-xs-4 contextimg'><img class=
-'img-rounded img-responsive' src=
-'https://www.ostraining.com/cdn/images/coding/bootstrap.png'></div>
-</div>
-</div>
-</div>
+				<h5 class='col-xs-12'>This site is still under construction</h5>
+			</div>
+		</div>
+		<div id="linkedArrays" class='container-fluid'></div>
+		<!-- <div class='projects container-fluid'> -->
+		<div class='container-fluid linkedArrays'>
+			<div class=' container-fluid'>
+				<div class='project1box'>
+					<h1>LinkedArray</h1>
+				</div>
+				<div class='col-xs-8'>
+					<p>
+						<br> This is a priority queue implementation that uses a linked list of arrays as the base structure.</p>
+					<p>It starts with an array of size one, then once that is full, creates an array of size two and adds it to the linked list (this array will hold the previous ones children). Once that is full, it will create and array of size 4 (the array sizes grow
+						at a rate of 2^n) which will hold the previous array's children, and so on.</p>
+					<p>This allows for better memory management, as each the largest array is (worst case) only half the size of the total array size from a standard implementation.</p>
+					<p>
+						<br> Github Link: <a class='gitlink' href='https://github.com/anmousyon/CS2336/blob/master/Project5/linkedArrays.java'>
+Java Version</a> | <a href='https://github.com/anmousyon/python/blob/master/PriorityQueue.py'>Python
+Version</a>
+						<br>
+						<br>
+						<br>
+					</p>
+				</div>
+				<div class='col-xs-4 contextimg'><img class='img-rounded img-responsive' src='http://www.gigaflop.co.uk/comp/fig3_2_3-1.gif'></div>
+			</div>
+		</div>
+		<div id="lolReddit" class='container-fluid'></div>
+		<div class='lolReddit'>
+			<div class='container-fluid'>
+				<div class='project2box'>
+					<h1>LolReddit</h1>
+				</div>
+				<div class='col-xs-8'>
+					<p>
+						<br> This script looks at the 'hot' posts on the leagueoflegends subreddit and will grab any post game discussion threads, shorten the title, create a tinyURL link to the reddit thread, and then post all the concatenation of the title and link as a
+						tweet on twitter.
+					</p>
+					<p>It used prawn to search through reddit for the posts and to get their title/submission id. It uses tweepy to post to twitter once the shortening has been done, and it uses tinyURL to shortern all the links before posting (so it doesnt go over the
+						twitter character limit).</p>
+					<p>
+						<br> Github Link: <a class='gitlink' href='https://github.com/anmousyon/python/blob/master/lolreddit.py'>Python
+Version</a>
+						<br>
+						<br>
+						<br>
+					</p>
+				</div>
+				<div class='col-xs-4 contextimg'><img class='img-rounded img-responsive' src='http://www.adweek.com/socialtimes/files/2014/07/alltwitter-twitter-bird-logo-white-on-blue.png'></div>
+			</div>
+		</div>
+		<div id="thisPage" class='container-fluid'></div>
+		<div class='thisWebsite'>
+			<div class='container-fluid'>
+				<div class='project3box'>
+					<h1>This Page</h1>
+				</div>
+				<div class='col-xs-8'>
+					<p>
+						<br> This page is my way of experimenting with html, css, and javascript (no javascript yet) and I am using it as a learning tool. If you see anything wrong or would like to make a suggestion, please do, as this is my practice page.</p>
+					<p>
+						<br> Github Link: <a class='gitlink' href='https://github.com/anmousyon/anmousyon.github.io'>GitPage</a>
+						<br>
+						<br>
+						<br>
+					</p>
+				</div>
+				<div class='col-xs-4 contextimg'><img class='img-rounded img-responsive' src='https://www.ostraining.com/cdn/images/coding/bootstrap.png'></div>
+			</div>
+		</div>
+	</div>
 </body>
+
 </html>
